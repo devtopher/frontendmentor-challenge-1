@@ -1,37 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="style.css">
+
   <title>Frontend Mentor | Order summary card</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
   </style>
 </head>
+
 <body>
+  <div class="card">
+    <div class="image">
 
-  Order Summary
+    </div>
+    <!--close image-->
+    <div class="order-summary">
+      <h1>Order Summary</h1>
+    </div><!-- close order-summary-->
+    <p>You can now listen to millions of songs, audiobooks, and podcasts on any
+      device anywhere you like!</p>
 
-  You can now listen to millions of songs, audiobooks, and podcasts on any 
-  device anywhere you like!
+    <div class="Plan"><!--background grey rounded edges-->
+      <div class="columns"><!--needs to be flex-->
 
-  Annual Plan
-  $59.99/year
 
-  Change
+        <div class="col 1">
+          <!--insert icon here-->
+        </div><!--close col 1-->
+        <div class="col 2">
+          <h2>Annual Plan</h2>
+          <p>$59.99/year</p>
+        </div><!--close col 2-->
+        <div class="col 3">
+          <a href=#><h3>Change</h3></a>
+        </div><!--close col 3-->
+
+
+      </div><!--close columns-->
+    </div><!-- close plan-->
+
+    <div class="payment">
+      <button class="button">Proceed to Payment</button>
+    </div> <!-- close payment-->
+    <div class="cancel">
+      <p>Cancel Order</p>
+    </div><!-- close cancel-->
+
+
+
+
+
+  </div> <!-- close card-->
+
+
+
+ 
 
   Proceed to Payment
   Cancel Order
-  
+
   <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="www.linkedin.com/in/chris-mccoy-4a415a224">Chris McCoy</a>.
   </div>
 </body>
+
 </html>
