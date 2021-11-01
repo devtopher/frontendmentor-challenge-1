@@ -2,3 +2,16 @@ body {
     background-image: url(images/pattern-background-desktop.svg);
     background-repeat: no-repeat;
 }
+.card {
+    width:150px;
+    margin:0 auto;
+}
+
+.columns{
+    display:flex;
+}
+
+.col{
+    padding: 15px;
+    margin:0 auto;
+}
