@@ -20,12 +20,22 @@ body {
 .columns{
     display:flex;
     /* border: yellow solid 2px; */
+    /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
+    background-color:rgba(209, 199, 199, 0.1);
+    border-radius: 15px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    
+    
 }
 
-.col{
-    padding: 15px;
-    margin:0 auto;
+.col {
+    
+    margin:15px auto;
     /* border:blue solid 2px; */
+    padding-bottom: 0;
 }
 
 .image {
@@ -35,6 +45,8 @@ body {
     width:400px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
+    
+    
    
     
     /* border:green solid 2px; */
@@ -47,7 +59,7 @@ body {
 .par{
     font-size:16px;
     /* border: 2px solid red; */
-    width: 75%;
+    width: 80%;
     margin-left:auto;
     margin-right: auto;
     margin-top: 0;
@@ -65,3 +77,31 @@ body {
 
 
 }
+.first {
+    padding-top:5px;
+}
+.second {
+    text-align: left;
+    /* padding-left: 2px;
+    margin-left:0px; */
+    /* border: green 2px solid; */
+    
+    
+    
+}
+
+.annual {
+    /* border:2px black solid; */
+    margin:1px 0px 2px 0px;
+    font-size: 16px;
+}
+.cost{
+    /* border:2px blue solid; */
+    margin:1px 0px 2px 0px;
+    font-size: 16px;
+}
+
+
+/* Next to do is fix the alignment of .second and fix the margin and padding issues
+also, change the background color so the icon still shows up. Then work on buttons
+11/2/2021
